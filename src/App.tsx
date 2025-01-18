@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Sound from './Component/Sound';
 
 function App() {
   return (
     <div className="App">
-      <div className='text-center'>Hello</div>
+        <Sound/>
     </div>
   );
 }
